@@ -1,4 +1,4 @@
-package com.example.todolist.controller;
+package org.zerock.w0929.controller;
 
 import lombok.extern.log4j.Log4j2;
 
@@ -32,6 +32,8 @@ public class LoginController extends HttpServlet {
 
         log.info(mid);
         log.info(mpw);
+
+
 
         //로그인 처리
         if(mid.equals("aaa")&&mpw.equals("111")){
